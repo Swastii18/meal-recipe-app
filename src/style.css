@@ -1,0 +1,111 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+
+
+.title{
+    font-family: cursive;
+    color:darkslateblue;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+
+.name{
+    color:darkmagenta;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    display: flex;
+}
+.link{
+    color:rgba(66, 20, 191, 0.803);
+    text-align: left;
+    text-decoration: none;
+}
+.cate{
+    color:rgba(66, 20, 191, 0.803);
+    text-align: left;
+    text-decoration: none;
+}
+
+.form-control{
+    margin: 1px 0;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    padding:10px 20px; 
+}
+
+.img{
+    width:100%;
+    padding:10px 10px;
+    cursor:pointer;
+    transform: scale(0.9,0.9);
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+.img:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.box{
+    border-right: 2px  solid rgb(229, 133, 236);
+    border-bottom: 2px  solid rgb(229, 133, 236);
+    margin-top: 14px;
+    padding:4px;
+    box-shadow: 8px 8px 8px rgb(9, 213, 227);
+    border-radius: 20px;
+    
+    
+}
+.ingred
+{
+    padding-left: 2px;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+    transform: scale(0.9,0.9);
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ingred:hover{
+    transform: scale(1.05, 1.05);
+
+}
+.ingredients_heading
+{
+    color: rgb(133, 29, 236);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: relative;
+    left:150px;
+}
+.text_
+{
+    font-size: 25px;
+    font-family: cursive;
+}
+.nav_{
+    background-color: bisque;
+}
+.bg-footer{
+    background-color: darkslateblue;
+    border-right: 2px  solid rgb(229, 133, 236);
+    border-bottom: 2px  solid rgb(229, 133, 236);
+    margin-top: 14px;
+    padding:4px;
+    box-shadow: 8px 8px 8px rgb(9, 213, 227);
+    border-radius: 20px;
+    color: bisque;
+}
+
+.btn{
+    background-color:rgba(66, 20, 191, 0.803);
+    color:bisque
+}
